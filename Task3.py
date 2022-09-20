@@ -6,9 +6,9 @@ from random import randint
 with open('file.txt', 'w') as data:
     data.write('0\n')
     data.write('1\n')
+    data.write('3\n')
     data.write('5\n')
-    data.write('8\n')
-    data.write('10\n')
+    data.write('7\n')
 
 def get_numbers(n):
     return [randint(-n/2, n) for i in range(-n, n + 1)]
